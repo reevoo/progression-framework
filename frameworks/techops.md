@@ -5,7 +5,7 @@ sidebarTitle: "🔌 TechOps"
 sidebarGroup:
 yaml: true
 levels: 5
-homepage: false
+homepage: true
 topics:
   - name: "communication"
     title: "💬 Communication"
