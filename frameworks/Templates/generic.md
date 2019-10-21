@@ -1,8 +1,8 @@
 ---
-path: "/generic"
+path: "/templates/generic"
 title: "📄 Generic Framework"
 sidebarTitle: "📄 Generic"
-sidebarGroup: ""
+sidebarGroup: "Templates"
 yaml: true
 levels: 6
 homepage: false
