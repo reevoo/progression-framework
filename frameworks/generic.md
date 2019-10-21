@@ -2,7 +2,7 @@
 path: "/generic"
 title: "📄 Generic Framework"
 sidebarTitle: "📄 Generic"
-sidebarGroup:
+sidebarGroup: ""
 yaml: true
 levels: 6
 homepage: false
@@ -182,7 +182,7 @@ We sort them into a number of levels, and we try to give specific examples of be
 Your manager will work with you on this. None of it will happen mysteriously behind closed doors. You’ll agree what level of progression you’re going for and what you need to improve on with your manager. It should be clear how you’re doing relative to that at all times.
 
 ### Things to keep in mind
-- There are many different ways to progress and be valuable to Reevoo as you grow, including deep technical knowledge and ability, technical leadership and people management. All are equally valuable paths in Reevoo' teams.
+- There are many different ways to progress and be valuable to Reevoo as you grow, including deep domain knowledge and ability, technical leadership and people management. All are equally valuable paths in Reevoo' teams.
 - The framework represents a career’s worth of progression, people shouldn’t expect to fly up it in 18 months!
 - Progression isn’t an exact science and there will always be some ambiguity.
 - This isn’t a checklist – it’s possible to progress up a level without showing all the behaviours in that level.
