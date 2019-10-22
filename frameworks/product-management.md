@@ -1,7 +1,7 @@
 ---
 path: "/product-management"
-title: "🔬 Product Management Framework"
-sidebarTitle: "🔬 Product Management"
+title: "🧮 Product Management Framework"
+sidebarTitle: "🧮 Product Management"
 sidebarGroup:
 yaml: true
 levels: 4
