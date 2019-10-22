@@ -1,7 +1,7 @@
 ---
 path: "/devops"
-title: "🛠️ DevOps Engineering Framework"
-sidebarTitle: "🛠️ DevOps"
+title: "⚙️ DevOps Engineering Framework"
+sidebarTitle: "⚙️ DevOps"
 sidebarGroup:
 yaml: true
 levels: 6

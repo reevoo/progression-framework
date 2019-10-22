@@ -1,7 +1,7 @@
 ---
 path: "/data"
-title: "📊 Data & Analytics Engineering Framework"
-sidebarTitle: "📊 Data & Analytics "
+title: "📈 Data & Analytics Engineering Framework"
+sidebarTitle: "📈 Data & Analytics "
 sidebarGroup:
 yaml: true
 levels: 6

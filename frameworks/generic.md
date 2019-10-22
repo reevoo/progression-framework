@@ -7,8 +7,8 @@ yaml: true
 levels: 6
 homepage: false
 topics:
-  - name: "knowledge"
-    title: "🧠 Knowledge"
+  - name: "mastery"
+    title: "🧠 Mastery"
     content:
       - level: 1
         criteria:

@@ -1,7 +1,7 @@
 ---
 path: "/techops"
-title: "🔌 Technical Operations"
-sidebarTitle: "🔌 TechOps"
+title: "💻 Technical Operations"
+sidebarTitle: "💻 TechOps"
 sidebarGroup:
 yaml: true
 levels: 5

@@ -1,7 +1,7 @@
 ---
-path: "/quality"
-title: "🕵🏽‍♂️ Quality Analyst Framework"
-sidebarTitle: "🕵🏽‍♂️ Quality"
+path: "/quality-assurance"
+title: "🔬 Quality Assurance Framework"
+sidebarTitle: "🔬 Quality Assurance"
 sidebarGroup:
 yaml: true
 levels: 3
