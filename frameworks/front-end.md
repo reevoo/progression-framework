@@ -1,7 +1,7 @@
 ---
-path: "/web"
-title: "🌐 Web Engineering Framework"
-sidebarTitle: "🌐 Web"
+path: "/front-end"
+title: "🌐 Front End Engineering Framework"
+sidebarTitle: "🌐 Front End"
 sidebarGroup: 
 yaml: true
 levels: 6
