@@ -7,7 +7,7 @@ BUILDKITE_COMMIT		?= $(GIT_HASH)
 AWS_ACCOUNT			?= 896069866492
 AWS_REGION			?= eu-west-1
 APP_NAME			:= progression-framework
-IMAGE_REPOSITORY		:= quay.io/reevoo/progression-framework
+IMAGE_REPOSITORY		:= 896069866492.dkr.ecr.eu-west-1.amazonaws.com/progression-framework
 
 ifneq (,$(wildcard env/${K8S_NAMESPACE}_app.yaml))
 	ENV_SPECIFIC_CONFIG := -f env/${K8S_NAMESPACE}_app.yaml
@@ -43,5 +43,13 @@ deploy: kubeconfig
 		${APP_NAME}-${K8S_NAMESPACE} \
 		charts/reevooapp
 
+.PHONY: tag-prod-image
+tag-prod-image:
+	.buildkite/put_ecr_tag.sh ${APP_NAME} ${BUILDKITE_COMMIT}
+
+.PHONY: image-scan
+image-scan:
+	.buildkite/ecr_scan_findings.sh ${APP_NAME} ${BUILDKITE_COMMIT}
+	
 .PHONY: clean
 clean: down
